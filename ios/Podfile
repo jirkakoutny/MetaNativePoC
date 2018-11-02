@@ -2,6 +2,7 @@
 # platform :ios, '9.0'
 
 target 'MetaNativePoC' do
+  pod 'AppCenter/Push', '~> 1.10.0'
   pod 'AppCenter/Crashes', '~> 1.10.0'
   pod 'AppCenter/Analytics', '~> 1.10.0'
   pod 'AppCenterReactNativeShared', '~> 1.9.0'
