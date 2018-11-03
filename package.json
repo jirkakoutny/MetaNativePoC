@@ -10,7 +10,7 @@
     "appcenter": "1.9.0",
     "appcenter-analytics": "1.9.0",
     "appcenter-crashes": "1.9.0",
-    "appcenter-push": "^1.9.0",
+    "appcenter-push": "1.9.0",
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.4"
   },
