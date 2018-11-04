@@ -6,8 +6,8 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import React, { Component } from 'react';
+import { Platform, StyleSheet, Text, View } from 'react-native';
 import Analytics from 'appcenter-analytics';
 
 const instructions = Platform.select({
@@ -25,9 +25,15 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+        <Text style={{ fontSize: 60, color: '#FFFFFF', fontWeight: 'bold' }}>
+          Meta
+        <Text style={{ fontSize: 60, color: '#FE4A4A' }}>
+            Care
+        </Text>
+        </Text>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
+
       </View>
     );
   }
@@ -38,16 +44,16 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#08589F',
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
+    color: 'lightgray',
     margin: 10,
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+    color: 'lightgray',
   },
 });
