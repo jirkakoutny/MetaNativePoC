@@ -31,6 +31,7 @@ export default class App extends Component<Props> {
             Care
         </Text>
         </Text>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF', fontWeight: 'bold' }}>mobile</Text>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
 
